@@ -30,6 +30,9 @@
     <!-- ===============================================-->
     <link href="assets/css/theme.css" rel="stylesheet" />
 
+      <!-- Social Share Kit CSS -->
+<link rel="stylesheet" href="share/css/social-share-kit.css" type="text/css">
+      
       <!--    Stats -->
       <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"windship",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");</script>
       
@@ -37,7 +40,26 @@
 
 
   <body>
+      
+      
+      
+      <!-- share -->
+<div class="ssk-sticky ssk-left ssk-center ssk-lg">
+    <a href="" class="ssk ssk-facebook"></a>
+    <a href="" class="ssk ssk-twitter"></a>
+    <a href="" class="ssk ssk-linkedin"></a>
+    <a href="" class="ssk ssk-email"></a>
+</div>
+      
+      
+      <!-- Social Share Kit JS -->
+<script type="text/javascript" src="share/js/social-share-kit.js"></script>
+      <script type="text/javascript">
+SocialShareKit.init();
+</script>
 
+      
+      
     <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
